@@ -1,9 +1,52 @@
-.container {
-  width: 400px;
+p {
+  width: 600px;
 }
 
-.small {
+h1 {
+  text-align: center;
+  }
+
+nav {
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  padding: 30px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 80px;
+}
+
+.main {
+  padding: 10px 40px;
+  margin: 0 40px 280px 40px;
+}
+
+#index-page-header {
+  padding: 70px 70px 210px 70px;
+  margin: 40px;
+  text-align: center;
+}
+
+.pages-header {
+  width: 900px;
+  padding: 20px 80px;
+  text-align: center;
+}
+
+.container {
+  padding: 0px 70px;
+  margin: 40px;
+  text-align: center;
+}
+
+.small-pic {
   width: 200px;
   height: 200px;
+  margin: 10px;
   border-radius: 20%;
+  float: right;
 }
