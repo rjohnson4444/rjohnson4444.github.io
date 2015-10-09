@@ -1,5 +1,6 @@
 p {
   width: 600px;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -9,11 +10,13 @@ h1 {
 nav {
   padding: 20px;
   text-align: center;
+  font-family: 'Slabo 27px', serif;
 }
 
-a {
+nav a {
   padding: 30px;
   text-decoration: none;
+  color: black;
 }
 
 body {
@@ -25,15 +28,32 @@ body {
   margin: 0 40px 280px 40px;
 }
 
+#cool-things {
+  display: inline-block;
+  color: black;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  -moz-box-shadow: 5px 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px 5px #777777;
+}
+
 #index-page-header {
-  padding: 70px 70px 210px 70px;
+  padding: 70px 70px 180px 70px;
   margin: 40px;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
+}
+
+#larger-text {
+  font-size: 25px;
 }
 
 .pages-header {
   width: 900px;
   padding: 20px 80px;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
 
